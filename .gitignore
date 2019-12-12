@@ -1,0 +1,11 @@
+/.vs/
+/bin/
+/MyCompanyName.AbpZeroTemplate.Application/bin/Debug
+/MyCompanyName.AbpZeroTemplate.Core/bin/Debug
+/MyCompanyName.AbpZeroTemplate.EntityFramework/bin/Debug
+/MyCompanyName.AbpZeroTemplate.Web/bin
+/MyCompanyName.AbpZeroTemplate.Web/Logs
+/MyCompanyName.AbpZeroTemplate.WebApi/bin/Debug
+/packages
+/Tests/MyCompanyName.AbpZeroTemplate.Tests/bin/Debug
+/Tools/MyCompanyName.AbpZeroTemplate.Migrator/bin/Debug
