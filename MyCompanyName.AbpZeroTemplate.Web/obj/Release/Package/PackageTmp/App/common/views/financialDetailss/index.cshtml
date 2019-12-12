@@ -1,0 +1,114 @@
+﻿
+                            
+
+  
+@*
+
+//你好，我是ABP代码生成器的作者,欢迎您使用该工具，目前接受付费定制该工具，有需要的可以联系我
+   //我的邮箱:werltm@hotmail.com
+   // 官方网站:"http://www.yoyocms.com"
+ // 交流QQ群：104390185  
+ //微信公众号：角落的白板报
+// 演示地址:"vue版本：http://vue.yoyocms.com angularJs版本:ng1.yoyocms.com"
+//博客地址：http://www.cnblogs.com/wer-ltm/
+//代码生成器帮助文档：http://www.cnblogs.com/wer-ltm/p/5777190.html
+// <Author-作者>梁桐铭 ,微软MVP</Author-作者>
+// Copyright © YoYoCms@China.2019-07-30T10:51:08. All Rights Reserved.
+//<生成时间>2019-07-30T10:51:08</生成时间>
+*@
+
+
+@using MyCompanyName.AbpZeroTemplate.Localization
+@* 这里是通过ng的控制权去查找相对应的js信息。所有我们的没一个js文件就是单独的一个控制权。。。尼玛angular设计太爽了。。。 *@
+
+<div ng-controller="common.views.financialDetailss.index as vm">
+    <div class="row margin-bottom-5">
+        <div class="col-xs-6">
+            <div class="page-head">
+                <div class="page-title">
+                    <h1>
+                        <span>@L("FinancialDetails")</span> <small>@L("FinancialDetailsHeaderInfo")</small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 text-right">
+            <button class="btn blue" ng-click="vm.getPagedfinancialDetailss()"><i class="fa fa-refresh"></i> @L("Refresh")</button>
+
+            <button class="btn btn-default " ng-click="vm.exportToExcel()"><i class="fa fa-plus"></i>@L("ExportToExcel")</button>
+            @*//判断是否拥有创建财务明细的权限*@
+            <button ng-if="vm.permissions.create" class="btn btn-primary blue" ng-click="vm.createFinancialDetails()"><i class="fa fa-plus"></i> @L("CreateFinancialDetails")</button>
+        </div>
+    </div>
+    <div class="portlet light margin-bottom-0">
+        <div class="portlet-body">
+            <div class="form">
+                <form class="horizontal-form">
+                    <div class="form-body" enter-key="vm.getPagedfinancialDetailss()">
+                        <div class="row margin-bottom-10">
+                            <div class="col-md-12">
+                                <div class="inputs inputs-full-width">
+                                 @* 用于控制input的组件 *@
+                                    <div class="portlet-input">
+                                        <div class="input-group">
+                                        @*添加搜索按钮，匹配后端DTO的filterText字段  *@
+                                            <input ng-model="vm.filterText" auto-focus class="form-control" placeholder="@L("SearchWithThreeDot")" type="text">
+                                                    @* 在文本框后面添加个搜素图片按钮 *@
+                                            <span class="input-group-btn">
+                                                <button ng-click="vm.getPagedfinancialDetailss()" class="btn default" type="submit"><i class="icon-magnifier"></i></button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            @* 以下是高级过滤功能，权限判断以及角色判断功能。因为ABP的权限都是硬编码。可以通过这里来进行获取。当然不用担心风险
+                        通过显示或者隐藏高级过滤按钮点击事件来控制，是否展示权限组合与角色组合的筛选框 *@
+                        @*<div class="row margin-bottom-10" ng-if="vm.advancedFiltersAreShown">
+                            <div ng-class="{'col-md-6': vm.permissions.roles, 'col-md-12':!vm.permissions.roles}">
+                                <div class="form-group">
+                                    <permission-combo selected-permission="vm.requestParams.permission"></permission-combo>
+                                </div>
+                            </div>
+                            <div class="col-md-6" ng-if="vm.permissions.roles">
+                                <div class="form-group">
+                                    <role-combo selected-role="vm.requestParams.role" empty-text="@L("FilterByRole")"></role-combo>
+                                </div>
+                            </div>
+                        </div>*@                      
+                    </div>
+        @*//这里根据实际情况修改吧。*@
+@*<div class="row margin-bottom-10" ng-if="vm.advancedFiltersAreShown">
+                        <div class="col-sm-12 text-right">
+                            <button class="btn blue" ng-click="vm.getUsers()"><i class="fa fa-refresh"></i> @L("Refresh")</button>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-10">
+                        <div class="col-sm-12">
+                            <span class="clickable-item text-muted" ng-if="!vm.advancedFiltersAreShown" ng-click="vm.advancedFiltersAreShown=!vm.advancedFiltersAreShown"><i class="fa fa-angle-down"></i> @L("ShowAdvancedFilters")</span>
+                            <span class="clickable-item text-muted" ng-if="vm.advancedFiltersAreShown" ng-click="vm.advancedFiltersAreShown=!vm.advancedFiltersAreShown"><i class="fa fa-angle-up"></i> @L("HideAdvancedFilters")</span>
+                        </div>
+                    </div>*@
+
+
+                   
+                 
+                </form>
+            </div>
+            <div busy-if="vm.loading">
+			                @* 此处考虑了阿拉伯人，他们的是从右往左写的，所以加了个判断 *@
+                <div ui-grid="vm.financialDetailsGridOptions" ui-grid-pagination ui-grid-resize-columns dir=@(CultureHelper.IsRtl ? "rtl" : "")></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+
+
+
+
+
+
+
+ 

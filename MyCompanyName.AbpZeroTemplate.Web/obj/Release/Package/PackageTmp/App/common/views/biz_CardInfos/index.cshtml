@@ -1,0 +1,68 @@
+﻿
+@using MyCompanyName.AbpZeroTemplate.Localization
+<div ng-controller="common.views.biz_CardInfos.index as vm">
+    <div class="row margin-bottom-5">
+        <div class="col-xs-6">
+            <div class="page-head">
+                <div class="page-title">
+                    <h1>
+                        <span>@L("Biz_CardInfo")</span> <small>@L("Biz_CardInfoHeaderInfo")</small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 text-right">
+            <button class="btn blue" ng-click="vm.getPagedbiz_CardInfos()"><i class="fa fa-refresh"></i> @L("Refresh")</button>
+
+            <button class="btn btn-default " ng-click="vm.exportToExcel()"><i class="fa fa-plus"></i>@L("ExportToExcel")</button>
+            @*//判断是否拥有创建订单表的权限*@
+            @*<button ng-if="vm.permissions.create" class="btn btn-primary blue" ng-click="vm.createBiz_CardInfo()"><i class="fa fa-plus"></i> @L("CreateBiz_CardInfo")</button>*@
+        </div>
+    </div>
+    <div class="portlet light margin-bottom-0">
+        <div class="portlet-body">
+            <div class="form">
+                    <div class="form-body" enter-key="vm.getPagedbiz_CardInfos()">
+                        <div class="row margin-bottom-10">
+                            <div class="col-md-12">
+                                <div class="inputs inputs-full-width">
+                                    @* 用于控制input的组件 *@
+                                    <div class="portlet-input">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <div class="form-group">
+                                                        <label class="control-label">身份证号</label>
+                                                        <input ng-model="vm.requestParams.idCard" class="form-control" type="text">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="form-group">
+                                                        <label class="control-label">姓名</label>
+                                                        <input ng-model="vm.requestParams.realName" class="form-control" type="text">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div busy-if="vm.loading">
+                            @* 此处考虑了阿拉伯人，他们的是从右往左写的，所以加了个判断 *@
+                            <div ui-grid="vm.biz_CardInfoGridOptions" ui-grid-pagination ui-grid-resize-columns ui-grid-auto-resize dir=@(CultureHelper.IsRtl ? "rtl" : "")></div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+

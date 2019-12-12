@@ -1,0 +1,891 @@
+﻿DEBUG 2019-11-16 10:14:57,427 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-16 10:14:57,476 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2019-11-16 10:14:57,476 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.Web.AbpZeroTemplateWebModule, MyCompanyName.AbpZeroTemplate.Web, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,476 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,476 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,476 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,476 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,476 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,476 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,476 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateDataModule, MyCompanyName.AbpZeroTemplate.EntityFramework, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateCoreModule, MyCompanyName.AbpZeroTemplate.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateApplicationModule, MyCompanyName.AbpZeroTemplate.Application, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.WebApi.AbpZeroTemplateWebApiModule, MyCompanyName.AbpZeroTemplate.WebApi, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,523 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:14:57,523 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2019-11-16 10:14:58,239 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-16 10:14:58,239 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-16 10:14:58,239 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-16 10:14:58,239 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+INFO  2019-11-16 10:14:59,303 [1    ] Hangfire.SqlServer.SqlServerStorage      - Start installing Hangfire SQL objects...
+INFO  2019-11-16 10:15:00,187 [1    ] Hangfire.SqlServer.SqlServerStorage      - Hangfire SQL objects installed.
+DEBUG 2019-11-16 10:15:00,850 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCompanyName.AbpZeroTemplate.EntityFramework.AbpZeroTemplateDbContext, MyCompanyName.AbpZeroTemplate.EntityFramework, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 10:15:06,138 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-16 10:15:06,169 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-16 10:15:06,216 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-16 10:15:06,232 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-16 10:15:06,310 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2019-11-16 10:15:06,351 [1    ] bp.Hangfire.HangfireBackgroundJobManager - Start background worker: Abp.Hangfire.HangfireBackgroundJobManager
+INFO  2019-11-16 10:15:06,397 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2019-11-16 10:15:06,397 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: .@AbpZeroTemplate'
+INFO  2019-11-16 10:15:06,397 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2019-11-16 10:15:06,397 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2019-11-16 10:15:06,397 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2019-11-16 10:15:06,397 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2019-11-16 10:15:06,397 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2019-11-16 10:15:06,397 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2019-11-16 10:15:06,397 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+DEBUG 2019-11-16 10:15:06,507 [erver] ngfire.Server.BackgroundProcessingServer - Background process 'BackgroundProcessingServer' started.
+DEBUG 2019-11-16 10:15:06,763 [tbeat] Hangfire.Server.ServerHeartbeat          - Background process 'ServerHeartbeat' started.
+DEBUG 2019-11-16 10:15:06,779 [chdog] Hangfire.Server.ServerWatchdog           - Background process 'ServerWatchdog' started.
+DEBUG 2019-11-16 10:15:06,795 [nager] Hangfire.SqlServer.ExpirationManager     - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2019-11-16 10:15:06,795 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'AggregatedCounter' table...
+DEBUG 2019-11-16 10:15:06,795 [gator] Hangfire.SqlServer.CountersAggregator    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2019-11-16 10:15:06,795 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2019-11-16 10:15:06,810 [98c26] Hangfire.Server.Worker                   - Background process 'Worker #7f198c26' started.
+DEBUG 2019-11-16 10:15:06,850 [1fb2c] Hangfire.Server.Worker                   - Background process 'Worker #c661fb2c' started.
+INFO  2019-11-16 10:15:06,850 [chdog] Hangfire.Server.ServerWatchdog           - 4 servers were removed due to timeout
+DEBUG 2019-11-16 10:15:06,897 [4463a] Hangfire.Server.Worker                   - Background process 'Worker #84b4463a' started.
+DEBUG 2019-11-16 10:15:06,929 [8cdb1] Hangfire.Server.Worker                   - Background process 'Worker #d4c8cdb1' started.
+DEBUG 2019-11-16 10:15:06,962 [d8cbf] Hangfire.Server.Worker                   - Background process 'Worker #b29d8cbf' started.
+DEBUG 2019-11-16 10:15:06,978 [gator] Hangfire.SqlServer.CountersAggregator    - Records from the 'Counter' table aggregated.
+DEBUG 2019-11-16 10:15:06,978 [72644] Hangfire.Server.Worker                   - Background process 'Worker #77372644' started.
+DEBUG 2019-11-16 10:15:06,993 [f9365] Hangfire.Server.Worker                   - Background process 'Worker #cf0f9365' started.
+DEBUG 2019-11-16 10:15:07,009 [0498c] Hangfire.Server.Worker                   - Background process 'Worker #47f0498c' started.
+DEBUG 2019-11-16 10:15:07,040 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2019-11-16 10:15:07,040 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Job' table...
+DEBUG 2019-11-16 10:15:07,103 [324a9] Hangfire.Server.Worker                   - Background process 'Worker #5cc324a9' started.
+DEBUG 2019-11-16 10:15:07,134 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Job' table.
+DEBUG 2019-11-16 10:15:07,134 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'List' table...
+DEBUG 2019-11-16 10:15:07,165 [228cc] Hangfire.Server.Worker                   - Background process 'Worker #061228cc' started.
+DEBUG 2019-11-16 10:15:07,181 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'List' table.
+DEBUG 2019-11-16 10:15:07,181 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Set' table...
+DEBUG 2019-11-16 10:15:07,196 [7de08] Hangfire.Server.Worker                   - Background process 'Worker #8e37de08' started.
+DEBUG 2019-11-16 10:15:07,243 [ee973] Hangfire.Server.Worker                   - Background process 'Worker #a66ee973' started.
+DEBUG 2019-11-16 10:15:07,259 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Set' table.
+DEBUG 2019-11-16 10:15:07,259 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Hash' table...
+DEBUG 2019-11-16 10:15:07,290 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Hash' table.
+DEBUG 2019-11-16 10:15:07,306 [f31ee] Hangfire.Server.Worker                   - Background process 'Worker #718f31ee' started.
+DEBUG 2019-11-16 10:15:07,326 [f4a87] Hangfire.Server.Worker                   - Background process 'Worker #8f0f4a87' started.
+DEBUG 2019-11-16 10:15:07,350 [771d3] Hangfire.Server.Worker                   - Background process 'Worker #00a771d3' started.
+DEBUG 2019-11-16 10:15:07,366 [f184f] Hangfire.Server.Worker                   - Background process 'Worker #d08f184f' started.
+DEBUG 2019-11-16 10:15:07,397 [09580] Hangfire.Server.Worker                   - Background process 'Worker #b2f09580' started.
+DEBUG 2019-11-16 10:15:07,397 [5649e] Hangfire.Server.Worker                   - Background process 'Worker #cc15649e' started.
+DEBUG 2019-11-16 10:15:07,428 [d6593] Hangfire.Server.Worker                   - Background process 'Worker #d80d6593' started.
+DEBUG 2019-11-16 10:15:07,446 [09a2d] Hangfire.Server.Worker                   - Background process 'Worker #dc609a2d' started.
+DEBUG 2019-11-16 10:15:07,477 [duler] Hangfire.Server.DelayedJobScheduler      - Background process 'DelayedJobScheduler' started.
+DEBUG 2019-11-16 10:15:07,493 [duler] Hangfire.Server.RecurringJobScheduler    - Background process 'RecurringJobScheduler' started.
+DEBUG 2019-11-16 10:15:09,834 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 41 classes define auto mapping attributes
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Friendships.Cache.FriendCacheItem
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Organizations.Dto.OrganizationUnitDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.MultiTenancy.Dto.TenantListDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.MultiTenancy.Dto.TenantEditDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Friendships.Dto.FriendDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.EditionEditDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.FlatFeatureDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.EditionListDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Chat.Dto.ChatMessageDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Chat.Dto.ChatUserDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.Biz_CardInfoEditDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.Biz_CardInfoListDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.FinancialDetailsEditDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.FinancialDetailsListDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.OrderDetailEditDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.OrderDetailListDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserListDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Roles.Dto.RoleListDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Auditing.Dto.AuditLogListDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2019-11-16 10:15:10,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-11-16 10:15:11,101 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-11-16 10:15:11,155 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-11-16 10:15:11,181 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2019-11-16 10:15:11,182 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2019-11-16 10:15:11,183 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-11-16 10:15:11,184 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2019-11-16 10:15:11,185 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2019-11-16 10:15:11,187 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-11-16 10:15:11,188 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2019-11-16 10:15:11,189 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2019-11-16 10:15:11,190 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2019-11-16 10:15:11,191 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2019-11-16 10:15:11,192 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2019-11-16 10:15:11,193 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2019-11-16 10:15:11,194 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2019-11-16 10:15:11,195 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2019-11-16 10:15:11,196 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Card.IBiz_CardInfoAppService' with service name 'app/biz_CardInfo'.
+DEBUG 2019-11-16 10:15:11,198 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Card.IFinancialDetailsAppService' with service name 'app/financialDetails'.
+DEBUG 2019-11-16 10:15:11,199 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Card.IOrderDetailAppService' with service name 'app/orderDetail'.
+DEBUG 2019-11-16 10:15:11,200 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2019-11-16 10:15:11,201 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2019-11-16 10:15:11,202 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2019-11-16 10:15:11,203 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-11-16 10:15:11,205 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2019-11-16 10:15:11,206 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-11-16 10:15:11,208 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2019-11-16 10:15:11,209 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+INFO  2019-11-16 10:15:11,492 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2019-11-16 10:15:11,492 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: .@AbpZeroTemplate'
+INFO  2019-11-16 10:15:11,492 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2019-11-16 10:15:11,492 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2019-11-16 10:15:11,492 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2019-11-16 10:15:11,492 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2019-11-16 10:15:11,492 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2019-11-16 10:15:11,492 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2019-11-16 10:15:11,492 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+DEBUG 2019-11-16 10:15:11,507 [erver] ngfire.Server.BackgroundProcessingServer - Background process 'BackgroundProcessingServer' started.
+DEBUG 2019-11-16 10:15:11,538 [tbeat] Hangfire.Server.ServerHeartbeat          - Background process 'ServerHeartbeat' started.
+DEBUG 2019-11-16 10:15:11,585 [chdog] Hangfire.Server.ServerWatchdog           - Background process 'ServerWatchdog' started.
+DEBUG 2019-11-16 10:15:11,585 [nager] Hangfire.SqlServer.ExpirationManager     - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2019-11-16 10:15:11,585 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'AggregatedCounter' table...
+DEBUG 2019-11-16 10:15:11,669 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2019-11-16 10:15:11,669 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Job' table...
+DEBUG 2019-11-16 10:15:11,669 [gator] Hangfire.SqlServer.CountersAggregator    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2019-11-16 10:15:11,669 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2019-11-16 10:15:11,684 [8d760] Hangfire.Server.Worker                   - Background process 'Worker #2848d760' started.
+DEBUG 2019-11-16 10:15:11,700 [gator] Hangfire.SqlServer.CountersAggregator    - Records from the 'Counter' table aggregated.
+DEBUG 2019-11-16 10:15:11,716 [f10d5] Hangfire.Server.Worker                   - Background process 'Worker #b7ef10d5' started.
+DEBUG 2019-11-16 10:15:11,747 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Job' table.
+DEBUG 2019-11-16 10:15:11,747 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'List' table...
+DEBUG 2019-11-16 10:15:11,763 [e3e42] Hangfire.Server.Worker                   - Background process 'Worker #986e3e42' started.
+DEBUG 2019-11-16 10:15:11,778 [175c8] Hangfire.Server.Worker                   - Background process 'Worker #9d7175c8' started.
+DEBUG 2019-11-16 10:15:11,794 [31fa3] Hangfire.Server.Worker                   - Background process 'Worker #7aa31fa3' started.
+DEBUG 2019-11-16 10:15:11,849 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'List' table.
+DEBUG 2019-11-16 10:15:11,849 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Set' table...
+DEBUG 2019-11-16 10:15:11,865 [d0c22] Hangfire.Server.Worker                   - Background process 'Worker #efdd0c22' started.
+DEBUG 2019-11-16 10:15:11,896 [5d62b] Hangfire.Server.Worker                   - Background process 'Worker #cc95d62b' started.
+DEBUG 2019-11-16 10:15:11,924 [34321] Hangfire.Server.Worker                   - Background process 'Worker #e5b34321' started.
+DEBUG 2019-11-16 10:15:11,930 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Set' table.
+DEBUG 2019-11-16 10:15:11,930 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Hash' table...
+DEBUG 2019-11-16 10:15:11,993 [4e9fd] Hangfire.Server.Worker                   - Background process 'Worker #5254e9fd' started.
+DEBUG 2019-11-16 10:15:11,993 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Hash' table.
+DEBUG 2019-11-16 10:15:12,008 [8fa83] Hangfire.Server.Worker                   - Background process 'Worker #7c48fa83' started.
+DEBUG 2019-11-16 10:15:12,040 [e0531] Hangfire.Server.Worker                   - Background process 'Worker #e65e0531' started.
+DEBUG 2019-11-16 10:15:12,055 [4c2fc] Hangfire.Server.Worker                   - Background process 'Worker #4ef4c2fc' started.
+DEBUG 2019-11-16 10:15:12,071 [0f600] Hangfire.Server.Worker                   - Background process 'Worker #7120f600' started.
+DEBUG 2019-11-16 10:15:12,086 [e3e05] Hangfire.Server.Worker                   - Background process 'Worker #9b7e3e05' started.
+DEBUG 2019-11-16 10:15:12,123 [fe686] Hangfire.Server.Worker                   - Background process 'Worker #366fe686' started.
+DEBUG 2019-11-16 10:15:12,123 [afb58] Hangfire.Server.Worker                   - Background process 'Worker #3beafb58' started.
+DEBUG 2019-11-16 10:15:12,154 [b8819] Hangfire.Server.Worker                   - Background process 'Worker #b1ab8819' started.
+DEBUG 2019-11-16 10:15:12,170 [47d8b] Hangfire.Server.Worker                   - Background process 'Worker #e2747d8b' started.
+DEBUG 2019-11-16 10:15:12,185 [d2ec1] Hangfire.Server.Worker                   - Background process 'Worker #0d6d2ec1' started.
+DEBUG 2019-11-16 10:15:12,232 [7d1f4] Hangfire.Server.Worker                   - Background process 'Worker #d1f7d1f4' started.
+DEBUG 2019-11-16 10:15:12,335 [duler] Hangfire.Server.DelayedJobScheduler      - Background process 'DelayedJobScheduler' started.
+DEBUG 2019-11-16 10:15:12,367 [duler] Hangfire.Server.RecurringJobScheduler    - Background process 'RecurringJobScheduler' started.
+WARN  2019-11-16 10:15:28,796 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'BasicUserInfo' in localization source 'AbpZeroTemplate'!
+INFO  2019-11-16 10:16:59,733 [68   ] ZeroTemplate.Card.Biz_CardInfoAppService - 在接口1中查询到数据{"status":"202","msg":"无法验证！","idCard":"210505199403250784","name":"聂书春","sex":"","area":"","province":"","city":"","prefecture":"","birthday":"","addrCode":"","lastCode":""}
+INFO  2019-11-16 10:17:19,379 [68   ] ZeroTemplate.Card.Biz_CardInfoAppService - 在接口1中查询到数据{"status":"202","msg":"无法验证！","idCard":"210505199403250784","name":"聂书春","sex":"","area":"","province":"","city":"","prefecture":"","birthday":"","addrCode":"","lastCode":""}
+ERROR 2019-11-16 10:19:42,203 [68   ] ZeroTemplate.Card.Biz_CardInfoAppService - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyCompanyName.AbpZeroTemplate.Card.Biz_CardInfoAppService.PushData(CardInfosInput input, User user) 位置 E:\ABP\aspnet-zero-4.6.0\src\MyCompanyName.AbpZeroTemplate.Application\CardInfo\Biz_CardInfos\Biz_CardInfoAppService.cs:行号 533
+   在 MyCompanyName.AbpZeroTemplate.Card.Biz_CardInfoAppService.<GetCardInfoAsync>d__20.MoveNext() 位置 E:\ABP\aspnet-zero-4.6.0\src\MyCompanyName.AbpZeroTemplate.Application\CardInfo\Biz_CardInfos\Biz_CardInfoAppService.cs:行号 318
+WARN  2019-11-16 10:19:42,653 [68   ] nHandling.AbpApiExceptionFilterAttribute - 请求失败请重试
+Abp.UI.UserFriendlyException: 请求失败请重试
+   在 MyCompanyName.AbpZeroTemplate.Card.Biz_CardInfoAppService.<GetCardInfoAsync>d__20.MoveNext() 位置 E:\ABP\aspnet-zero-4.6.0\src\MyCompanyName.AbpZeroTemplate.Application\CardInfo\Biz_CardInfos\Biz_CardInfoAppService.cs:行号 326
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2019-11-16 10:20:10,472 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2019-11-16 10:20:15,835 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2019-11-16 10:20:16,279 [gator] Hangfire.SqlServer.CountersAggregator    - Records from the 'Counter' table aggregated.
+DEBUG 2019-11-16 10:20:16,279 [gator] Hangfire.SqlServer.CountersAggregator    - Records from the 'Counter' table aggregated.
+DEBUG 2019-11-16 13:43:58,835 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-16 13:43:58,929 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2019-11-16 13:43:58,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.Web.AbpZeroTemplateWebModule, MyCompanyName.AbpZeroTemplate.Web, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:58,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:58,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:58,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:58,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:58,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:58,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:58,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:58,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateDataModule, MyCompanyName.AbpZeroTemplate.EntityFramework, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:58,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:58,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:58,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:58,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateCoreModule, MyCompanyName.AbpZeroTemplate.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:58,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:58,970 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:59,000 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateApplicationModule, MyCompanyName.AbpZeroTemplate.Application, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:59,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.WebApi.AbpZeroTemplateWebApiModule, MyCompanyName.AbpZeroTemplate.WebApi, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:59,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:59,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:59,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:59,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:43:59,008 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2019-11-16 13:43:59,599 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-16 13:43:59,599 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-16 13:43:59,599 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-16 13:43:59,599 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+INFO  2019-11-16 13:44:00,351 [1    ] Hangfire.SqlServer.SqlServerStorage      - Start installing Hangfire SQL objects...
+INFO  2019-11-16 13:44:00,896 [1    ] Hangfire.SqlServer.SqlServerStorage      - Hangfire SQL objects installed.
+DEBUG 2019-11-16 13:44:01,479 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCompanyName.AbpZeroTemplate.EntityFramework.AbpZeroTemplateDbContext, MyCompanyName.AbpZeroTemplate.EntityFramework, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 13:44:05,470 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-16 13:44:05,547 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-16 13:44:05,580 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-16 13:44:05,656 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-16 13:44:05,715 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2019-11-16 13:44:05,750 [1    ] bp.Hangfire.HangfireBackgroundJobManager - Start background worker: Abp.Hangfire.HangfireBackgroundJobManager
+INFO  2019-11-16 13:44:05,767 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2019-11-16 13:44:05,788 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: .@AbpZeroTemplate'
+INFO  2019-11-16 13:44:05,789 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2019-11-16 13:44:05,789 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2019-11-16 13:44:05,789 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2019-11-16 13:44:05,789 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2019-11-16 13:44:05,789 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2019-11-16 13:44:05,789 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2019-11-16 13:44:05,789 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+DEBUG 2019-11-16 13:44:05,864 [erver] ngfire.Server.BackgroundProcessingServer - Background process 'BackgroundProcessingServer' started.
+DEBUG 2019-11-16 13:44:06,117 [tbeat] Hangfire.Server.ServerHeartbeat          - Background process 'ServerHeartbeat' started.
+DEBUG 2019-11-16 13:44:06,132 [chdog] Hangfire.Server.ServerWatchdog           - Background process 'ServerWatchdog' started.
+DEBUG 2019-11-16 13:44:06,166 [nager] Hangfire.SqlServer.ExpirationManager     - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2019-11-16 13:44:06,171 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'AggregatedCounter' table...
+DEBUG 2019-11-16 13:44:06,207 [gator] Hangfire.SqlServer.CountersAggregator    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+INFO  2019-11-16 13:44:06,207 [chdog] Hangfire.Server.ServerWatchdog           - 2 servers were removed due to timeout
+DEBUG 2019-11-16 13:44:06,213 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2019-11-16 13:44:06,232 [27860] Hangfire.Server.Worker                   - Background process 'Worker #44127860' started.
+DEBUG 2019-11-16 13:44:06,262 [gator] Hangfire.SqlServer.CountersAggregator    - Records from the 'Counter' table aggregated.
+DEBUG 2019-11-16 13:44:06,281 [41669] Hangfire.Server.Worker                   - Background process 'Worker #99041669' started.
+DEBUG 2019-11-16 13:44:06,309 [01c64] Hangfire.Server.Worker                   - Background process 'Worker #a5901c64' started.
+DEBUG 2019-11-16 13:44:06,361 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2019-11-16 13:44:06,361 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Job' table...
+DEBUG 2019-11-16 13:44:06,385 [71765] Hangfire.Server.Worker                   - Background process 'Worker #f4a71765' started.
+DEBUG 2019-11-16 13:44:06,428 [c70bd] Hangfire.Server.Worker                   - Background process 'Worker #fa7c70bd' started.
+DEBUG 2019-11-16 13:44:06,455 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Job' table.
+DEBUG 2019-11-16 13:44:06,455 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'List' table...
+DEBUG 2019-11-16 13:44:06,476 [41738] Hangfire.Server.Worker                   - Background process 'Worker #9c541738' started.
+DEBUG 2019-11-16 13:44:06,533 [fc276] Hangfire.Server.Worker                   - Background process 'Worker #9bffc276' started.
+DEBUG 2019-11-16 13:44:06,558 [1d145] Hangfire.Server.Worker                   - Background process 'Worker #c751d145' started.
+DEBUG 2019-11-16 13:44:06,565 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'List' table.
+DEBUG 2019-11-16 13:44:06,565 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Set' table...
+DEBUG 2019-11-16 13:44:06,613 [366c3] Hangfire.Server.Worker                   - Background process 'Worker #6a7366c3' started.
+DEBUG 2019-11-16 13:44:06,625 [c4494] Hangfire.Server.Worker                   - Background process 'Worker #455c4494' started.
+DEBUG 2019-11-16 13:44:06,690 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Set' table.
+DEBUG 2019-11-16 13:44:06,690 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Hash' table...
+DEBUG 2019-11-16 13:44:06,728 [f809f] Hangfire.Server.Worker                   - Background process 'Worker #eabf809f' started.
+DEBUG 2019-11-16 13:44:06,757 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Hash' table.
+DEBUG 2019-11-16 13:44:06,835 [c66d8] Hangfire.Server.Worker                   - Background process 'Worker #671c66d8' started.
+DEBUG 2019-11-16 13:44:06,842 [a8446] Hangfire.Server.Worker                   - Background process 'Worker #e66a8446' started.
+DEBUG 2019-11-16 13:44:06,891 [aa78a] Hangfire.Server.Worker                   - Background process 'Worker #f61aa78a' started.
+DEBUG 2019-11-16 13:44:06,897 [e99be] Hangfire.Server.Worker                   - Background process 'Worker #bcbe99be' started.
+DEBUG 2019-11-16 13:44:06,918 [5e0b6] Hangfire.Server.Worker                   - Background process 'Worker #d3f5e0b6' started.
+DEBUG 2019-11-16 13:44:06,947 [fa6e0] Hangfire.Server.Worker                   - Background process 'Worker #956fa6e0' started.
+DEBUG 2019-11-16 13:44:06,966 [61371] Hangfire.Server.Worker                   - Background process 'Worker #12e61371' started.
+DEBUG 2019-11-16 13:44:06,992 [95874] Hangfire.Server.Worker                   - Background process 'Worker #b6a95874' started.
+DEBUG 2019-11-16 13:44:07,000 [11e48] Hangfire.Server.Worker                   - Background process 'Worker #0eb11e48' started.
+DEBUG 2019-11-16 13:44:07,029 [duler] Hangfire.Server.DelayedJobScheduler      - Background process 'DelayedJobScheduler' started.
+DEBUG 2019-11-16 13:44:07,039 [duler] Hangfire.Server.RecurringJobScheduler    - Background process 'RecurringJobScheduler' started.
+DEBUG 2019-11-16 13:44:09,656 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-11-16 13:44:09,966 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 41 classes define auto mapping attributes
+DEBUG 2019-11-16 13:44:09,966 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Friendships.Cache.FriendCacheItem
+DEBUG 2019-11-16 13:44:09,968 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-16 13:44:09,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-16 13:44:09,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Organizations.Dto.OrganizationUnitDto
+DEBUG 2019-11-16 13:44:09,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2019-11-16 13:44:09,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2019-11-16 13:44:09,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.MultiTenancy.Dto.TenantListDto
+DEBUG 2019-11-16 13:44:09,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.MultiTenancy.Dto.TenantEditDto
+DEBUG 2019-11-16 13:44:09,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2019-11-16 13:44:09,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2019-11-16 13:44:09,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Friendships.Dto.FriendDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.EditionEditDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.FlatFeatureDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.EditionListDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Chat.Dto.ChatMessageDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Chat.Dto.ChatUserDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.Biz_CardInfoEditDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.Biz_CardInfoListDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.FinancialDetailsEditDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.FinancialDetailsListDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.OrderDetailEditDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.OrderDetailListDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserListDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Roles.Dto.RoleListDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2019-11-16 13:44:09,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Auditing.Dto.AuditLogListDto
+DEBUG 2019-11-16 13:44:09,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2019-11-16 13:44:09,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2019-11-16 13:44:09,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2019-11-16 13:44:09,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2019-11-16 13:44:09,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2019-11-16 13:44:09,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2019-11-16 13:44:09,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2019-11-16 13:44:09,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2019-11-16 13:44:09,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2019-11-16 13:44:09,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-11-16 13:44:10,816 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-11-16 13:44:10,858 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-11-16 13:44:10,871 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2019-11-16 13:44:10,873 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2019-11-16 13:44:10,874 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-11-16 13:44:10,875 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2019-11-16 13:44:10,876 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2019-11-16 13:44:10,878 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-11-16 13:44:10,879 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2019-11-16 13:44:10,881 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2019-11-16 13:44:10,882 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2019-11-16 13:44:10,883 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2019-11-16 13:44:10,884 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2019-11-16 13:44:10,885 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2019-11-16 13:44:10,886 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2019-11-16 13:44:10,887 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2019-11-16 13:44:10,888 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Card.IBiz_CardInfoAppService' with service name 'app/biz_CardInfo'.
+DEBUG 2019-11-16 13:44:10,889 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Card.IFinancialDetailsAppService' with service name 'app/financialDetails'.
+DEBUG 2019-11-16 13:44:10,890 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Card.IOrderDetailAppService' with service name 'app/orderDetail'.
+DEBUG 2019-11-16 13:44:10,892 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2019-11-16 13:44:10,894 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2019-11-16 13:44:10,895 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2019-11-16 13:44:10,896 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-11-16 13:44:10,897 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2019-11-16 13:44:10,898 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-11-16 13:44:10,899 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2019-11-16 13:44:10,900 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+INFO  2019-11-16 13:44:11,096 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2019-11-16 13:44:11,097 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: .@AbpZeroTemplate'
+INFO  2019-11-16 13:44:11,097 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2019-11-16 13:44:11,097 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2019-11-16 13:44:11,097 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2019-11-16 13:44:11,097 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2019-11-16 13:44:11,097 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2019-11-16 13:44:11,097 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2019-11-16 13:44:11,097 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+DEBUG 2019-11-16 13:44:11,111 [erver] ngfire.Server.BackgroundProcessingServer - Background process 'BackgroundProcessingServer' started.
+DEBUG 2019-11-16 13:44:11,134 [tbeat] Hangfire.Server.ServerHeartbeat          - Background process 'ServerHeartbeat' started.
+DEBUG 2019-11-16 13:44:11,160 [chdog] Hangfire.Server.ServerWatchdog           - Background process 'ServerWatchdog' started.
+DEBUG 2019-11-16 13:44:11,197 [nager] Hangfire.SqlServer.ExpirationManager     - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2019-11-16 13:44:11,198 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'AggregatedCounter' table...
+DEBUG 2019-11-16 13:44:11,257 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2019-11-16 13:44:11,258 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Job' table...
+DEBUG 2019-11-16 13:44:11,259 [gator] Hangfire.SqlServer.CountersAggregator    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2019-11-16 13:44:11,259 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2019-11-16 13:44:11,280 [eaa57] Hangfire.Server.Worker                   - Background process 'Worker #00eeaa57' started.
+DEBUG 2019-11-16 13:44:11,311 [gator] Hangfire.SqlServer.CountersAggregator    - Records from the 'Counter' table aggregated.
+DEBUG 2019-11-16 13:44:11,355 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Job' table.
+DEBUG 2019-11-16 13:44:11,355 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'List' table...
+DEBUG 2019-11-16 13:44:11,357 [26c65] Hangfire.Server.Worker                   - Background process 'Worker #cf626c65' started.
+DEBUG 2019-11-16 13:44:11,362 [b1437] Hangfire.Server.Worker                   - Background process 'Worker #8d1b1437' started.
+DEBUG 2019-11-16 13:44:11,403 [1c624] Hangfire.Server.Worker                   - Background process 'Worker #a5a1c624' started.
+DEBUG 2019-11-16 13:44:11,422 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'List' table.
+DEBUG 2019-11-16 13:44:11,423 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Set' table...
+DEBUG 2019-11-16 13:44:11,462 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Set' table.
+DEBUG 2019-11-16 13:44:11,463 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Hash' table...
+DEBUG 2019-11-16 13:44:11,484 [1ffc5] Hangfire.Server.Worker                   - Background process 'Worker #7c31ffc5' started.
+DEBUG 2019-11-16 13:44:11,503 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Hash' table.
+DEBUG 2019-11-16 13:44:11,503 [f644a] Hangfire.Server.Worker                   - Background process 'Worker #cb0f644a' started.
+DEBUG 2019-11-16 13:44:11,522 [2b42a] Hangfire.Server.Worker                   - Background process 'Worker #a862b42a' started.
+DEBUG 2019-11-16 13:44:11,549 [9dfd6] Hangfire.Server.Worker                   - Background process 'Worker #1d49dfd6' started.
+DEBUG 2019-11-16 13:44:11,565 [fee6a] Hangfire.Server.Worker                   - Background process 'Worker #8d7fee6a' started.
+DEBUG 2019-11-16 13:44:11,573 [e58a6] Hangfire.Server.Worker                   - Background process 'Worker #616e58a6' started.
+DEBUG 2019-11-16 13:44:11,614 [8a041] Hangfire.Server.Worker                   - Background process 'Worker #cc08a041' started.
+DEBUG 2019-11-16 13:44:11,638 [1e4e8] Hangfire.Server.Worker                   - Background process 'Worker #2991e4e8' started.
+DEBUG 2019-11-16 13:44:11,647 [78953] Hangfire.Server.Worker                   - Background process 'Worker #18178953' started.
+DEBUG 2019-11-16 13:44:11,685 [cc1ef] Hangfire.Server.Worker                   - Background process 'Worker #12ecc1ef' started.
+DEBUG 2019-11-16 13:44:11,708 [ac021] Hangfire.Server.Worker                   - Background process 'Worker #302ac021' started.
+DEBUG 2019-11-16 13:44:11,732 [c7a9e] Hangfire.Server.Worker                   - Background process 'Worker #cf3c7a9e' started.
+DEBUG 2019-11-16 13:44:11,754 [5ffdd] Hangfire.Server.Worker                   - Background process 'Worker #dc65ffdd' started.
+DEBUG 2019-11-16 13:44:11,790 [d8e9c] Hangfire.Server.Worker                   - Background process 'Worker #642d8e9c' started.
+DEBUG 2019-11-16 13:44:11,821 [459f8] Hangfire.Server.Worker                   - Background process 'Worker #e5c459f8' started.
+DEBUG 2019-11-16 13:44:11,843 [76d49] Hangfire.Server.Worker                   - Background process 'Worker #74f76d49' started.
+DEBUG 2019-11-16 13:44:11,868 [duler] Hangfire.Server.DelayedJobScheduler      - Background process 'DelayedJobScheduler' started.
+DEBUG 2019-11-16 13:44:11,897 [duler] Hangfire.Server.RecurringJobScheduler    - Background process 'RecurringJobScheduler' started.
+WARN  2019-11-16 13:44:28,254 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'BasicUserInfo' in localization source 'AbpZeroTemplate'!
+INFO  2019-11-16 13:45:51,887 [68   ] ZeroTemplate.Card.Biz_CardInfoAppService - 在接口1中查询到数据{"status":"202","msg":"无法验证！","idCard":"210505199403250784","name":"聂书春","sex":"","area":"","province":"","city":"","prefecture":"","birthday":"","addrCode":"","lastCode":""}
+INFO  2019-11-16 13:45:52,610 [68   ] ZeroTemplate.Card.Biz_CardInfoAppService - 在接口1中查询到数据{"code":"0","message":"成功","result":{"name":"聂书春","idcard":"210505199403250784","res":"2","description":"不一致","sex":"女","birthday":"19940325","address":"辽宁省本溪市南芬区"}}
+INFO  2019-11-16 13:46:08,633 [75   ] ZeroTemplate.Card.Biz_CardInfoAppService - 在接口1中查询到数据{"status":"202","msg":"无法验证！","idCard":"210505199403250784","name":"聂书春","sex":"","area":"","province":"","city":"","prefecture":"","birthday":"","addrCode":"","lastCode":""}
+INFO  2019-11-16 13:46:12,312 [75   ] ZeroTemplate.Card.Biz_CardInfoAppService - 在接口1中查询到数据{"code":"0","message":"成功","result":{"name":"聂书春","idcard":"210505199403250784","res":"2","description":"不一致","sex":"女","birthday":"19940325","address":"辽宁省本溪市南芬区"}}
+INFO  2019-11-16 13:46:25,605 [75   ] ZeroTemplate.Card.Biz_CardInfoAppService - 在cardIdCodes表中查询到数据210505199403250784姓名:聂书春
+INFO  2019-11-16 13:48:31,720 [74   ] ZeroTemplate.Card.Biz_CardInfoAppService - 在接口1中查询到数据{"status":"01","msg":"实名认证通过！","idCard":"411523199301133115","name":"黄巍巍","sex":"男","area":"河南省信阳市新县","province":"河南省","city":"信阳市","prefecture":"新县","birthday":"1993-01-13","addrCode":"411523","lastCode":"5"}
+DEBUG 2019-11-16 13:49:06,264 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2019-11-16 13:49:06,277 [gator] Hangfire.SqlServer.CountersAggregator    - Records from the 'Counter' table aggregated.
+DEBUG 2019-11-16 13:49:11,313 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2019-11-16 13:49:11,329 [gator] Hangfire.SqlServer.CountersAggregator    - Records from the 'Counter' table aggregated.
+DEBUG 2019-11-16 14:04:08,102 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-16 14:04:08,793 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2019-11-16 14:04:08,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.Web.AbpZeroTemplateWebModule, MyCompanyName.AbpZeroTemplate.Web, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateDataModule, MyCompanyName.AbpZeroTemplate.EntityFramework, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,820 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,820 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,821 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,821 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateCoreModule, MyCompanyName.AbpZeroTemplate.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,821 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,822 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,822 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateApplicationModule, MyCompanyName.AbpZeroTemplate.Application, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,822 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.WebApi.AbpZeroTemplateWebApiModule, MyCompanyName.AbpZeroTemplate.WebApi, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,822 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,822 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,822 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,823 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:08,827 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2019-11-16 14:04:10,026 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-16 14:04:10,026 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-16 14:04:10,026 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-16 14:04:10,026 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+INFO  2019-11-16 14:04:10,936 [1    ] Hangfire.SqlServer.SqlServerStorage      - Start installing Hangfire SQL objects...
+INFO  2019-11-16 14:04:11,294 [1    ] Hangfire.SqlServer.SqlServerStorage      - Hangfire SQL objects installed.
+DEBUG 2019-11-16 14:04:12,130 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCompanyName.AbpZeroTemplate.EntityFramework.AbpZeroTemplateDbContext, MyCompanyName.AbpZeroTemplate.EntityFramework, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:04:13,758 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-16 14:04:13,793 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-16 14:04:13,796 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-16 14:04:13,808 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-16 14:04:13,830 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2019-11-16 14:04:13,839 [1    ] bp.Hangfire.HangfireBackgroundJobManager - Start background worker: Abp.Hangfire.HangfireBackgroundJobManager
+INFO  2019-11-16 14:04:13,849 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2019-11-16 14:04:13,854 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: .@AbpZeroTemplate'
+INFO  2019-11-16 14:04:13,854 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2019-11-16 14:04:13,854 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2019-11-16 14:04:13,854 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2019-11-16 14:04:13,854 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2019-11-16 14:04:13,855 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2019-11-16 14:04:13,855 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2019-11-16 14:04:13,855 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+DEBUG 2019-11-16 14:04:13,904 [erver] ngfire.Server.BackgroundProcessingServer - Background process 'BackgroundProcessingServer' started.
+DEBUG 2019-11-16 14:04:14,151 [tbeat] Hangfire.Server.ServerHeartbeat          - Background process 'ServerHeartbeat' started.
+DEBUG 2019-11-16 14:04:14,159 [chdog] Hangfire.Server.ServerWatchdog           - Background process 'ServerWatchdog' started.
+DEBUG 2019-11-16 14:04:14,211 [nager] Hangfire.SqlServer.ExpirationManager     - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2019-11-16 14:04:14,215 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'AggregatedCounter' table...
+INFO  2019-11-16 14:04:14,274 [chdog] Hangfire.Server.ServerWatchdog           - 2 servers were removed due to timeout
+DEBUG 2019-11-16 14:04:14,282 [gator] Hangfire.SqlServer.CountersAggregator    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2019-11-16 14:04:14,289 [c2db4] Hangfire.Server.Worker                   - Background process 'Worker #7c8c2db4' started.
+DEBUG 2019-11-16 14:04:14,290 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2019-11-16 14:04:14,313 [gator] Hangfire.SqlServer.CountersAggregator    - Records from the 'Counter' table aggregated.
+DEBUG 2019-11-16 14:04:14,344 [c8290] Hangfire.Server.Worker                   - Background process 'Worker #ae7c8290' started.
+DEBUG 2019-11-16 14:04:14,407 [a19de] Hangfire.Server.Worker                   - Background process 'Worker #207a19de' started.
+DEBUG 2019-11-16 14:04:14,434 [505b6] Hangfire.Server.Worker                   - Background process 'Worker #707505b6' started.
+DEBUG 2019-11-16 14:04:14,470 [f8303] Hangfire.Server.Worker                   - Background process 'Worker #bd6f8303' started.
+DEBUG 2019-11-16 14:04:14,479 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2019-11-16 14:04:14,479 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Job' table...
+DEBUG 2019-11-16 14:04:14,549 [b7de0] Hangfire.Server.Worker                   - Background process 'Worker #20bb7de0' started.
+DEBUG 2019-11-16 14:04:14,558 [87f7a] Hangfire.Server.Worker                   - Background process 'Worker #a3087f7a' started.
+DEBUG 2019-11-16 14:04:14,652 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Job' table.
+DEBUG 2019-11-16 14:04:14,652 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'List' table...
+DEBUG 2019-11-16 14:04:14,690 [a1d81] Hangfire.Server.Worker                   - Background process 'Worker #c70a1d81' started.
+DEBUG 2019-11-16 14:04:14,736 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'List' table.
+DEBUG 2019-11-16 14:04:14,736 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Set' table...
+DEBUG 2019-11-16 14:04:14,737 [a174f] Hangfire.Server.Worker                   - Background process 'Worker #ad1a174f' started.
+DEBUG 2019-11-16 14:04:14,760 [a1e45] Hangfire.Server.Worker                   - Background process 'Worker #7aba1e45' started.
+DEBUG 2019-11-16 14:04:14,792 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Set' table.
+DEBUG 2019-11-16 14:04:14,792 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Hash' table...
+DEBUG 2019-11-16 14:04:14,816 [ddb9b] Hangfire.Server.Worker                   - Background process 'Worker #2baddb9b' started.
+DEBUG 2019-11-16 14:04:14,840 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Hash' table.
+DEBUG 2019-11-16 14:04:14,866 [28efe] Hangfire.Server.Worker                   - Background process 'Worker #3f728efe' started.
+DEBUG 2019-11-16 14:04:14,876 [d1fb7] Hangfire.Server.Worker                   - Background process 'Worker #c1fd1fb7' started.
+DEBUG 2019-11-16 14:04:14,898 [33cbe] Hangfire.Server.Worker                   - Background process 'Worker #e6333cbe' started.
+DEBUG 2019-11-16 14:04:14,918 [13d0f] Hangfire.Server.Worker                   - Background process 'Worker #aed13d0f' started.
+DEBUG 2019-11-16 14:04:14,996 [a28ea] Hangfire.Server.Worker                   - Background process 'Worker #ff4a28ea' started.
+DEBUG 2019-11-16 14:04:15,031 [4dd12] Hangfire.Server.Worker                   - Background process 'Worker #9f94dd12' started.
+DEBUG 2019-11-16 14:04:15,078 [b15b3] Hangfire.Server.Worker                   - Background process 'Worker #4a9b15b3' started.
+DEBUG 2019-11-16 14:04:15,122 [d0ed7] Hangfire.Server.Worker                   - Background process 'Worker #2ced0ed7' started.
+DEBUG 2019-11-16 14:04:15,147 [07577] Hangfire.Server.Worker                   - Background process 'Worker #71f07577' started.
+DEBUG 2019-11-16 14:04:15,174 [duler] Hangfire.Server.DelayedJobScheduler      - Background process 'DelayedJobScheduler' started.
+DEBUG 2019-11-16 14:04:15,189 [duler] Hangfire.Server.RecurringJobScheduler    - Background process 'RecurringJobScheduler' started.
+DEBUG 2019-11-16 14:04:17,919 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-11-16 14:04:18,277 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 41 classes define auto mapping attributes
+DEBUG 2019-11-16 14:04:18,277 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Friendships.Cache.FriendCacheItem
+DEBUG 2019-11-16 14:04:18,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-16 14:04:18,282 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-16 14:04:18,282 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Organizations.Dto.OrganizationUnitDto
+DEBUG 2019-11-16 14:04:18,282 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2019-11-16 14:04:18,282 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2019-11-16 14:04:18,282 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.MultiTenancy.Dto.TenantListDto
+DEBUG 2019-11-16 14:04:18,282 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.MultiTenancy.Dto.TenantEditDto
+DEBUG 2019-11-16 14:04:18,282 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2019-11-16 14:04:18,283 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2019-11-16 14:04:18,283 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Friendships.Dto.FriendDto
+DEBUG 2019-11-16 14:04:18,283 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.EditionEditDto
+DEBUG 2019-11-16 14:04:18,283 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.FlatFeatureDto
+DEBUG 2019-11-16 14:04:18,283 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.EditionListDto
+DEBUG 2019-11-16 14:04:18,283 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Chat.Dto.ChatMessageDto
+DEBUG 2019-11-16 14:04:18,283 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Chat.Dto.ChatUserDto
+DEBUG 2019-11-16 14:04:18,283 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2019-11-16 14:04:18,283 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.Biz_CardInfoEditDto
+DEBUG 2019-11-16 14:04:18,283 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.Biz_CardInfoListDto
+DEBUG 2019-11-16 14:04:18,283 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.FinancialDetailsEditDto
+DEBUG 2019-11-16 14:04:18,283 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.FinancialDetailsListDto
+DEBUG 2019-11-16 14:04:18,283 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.OrderDetailEditDto
+DEBUG 2019-11-16 14:04:18,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.OrderDetailListDto
+DEBUG 2019-11-16 14:04:18,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2019-11-16 14:04:18,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2019-11-16 14:04:18,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserListDto
+DEBUG 2019-11-16 14:04:18,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Roles.Dto.RoleListDto
+DEBUG 2019-11-16 14:04:18,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2019-11-16 14:04:18,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2019-11-16 14:04:18,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2019-11-16 14:04:18,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Auditing.Dto.AuditLogListDto
+DEBUG 2019-11-16 14:04:18,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2019-11-16 14:04:18,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2019-11-16 14:04:18,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2019-11-16 14:04:18,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2019-11-16 14:04:18,284 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2019-11-16 14:04:18,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2019-11-16 14:04:18,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2019-11-16 14:04:18,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2019-11-16 14:04:18,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2019-11-16 14:04:18,285 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-11-16 14:04:19,291 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-11-16 14:04:19,347 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-11-16 14:04:19,360 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2019-11-16 14:04:19,363 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2019-11-16 14:04:19,364 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-11-16 14:04:19,365 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2019-11-16 14:04:19,367 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2019-11-16 14:04:19,369 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-11-16 14:04:19,371 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2019-11-16 14:04:19,373 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2019-11-16 14:04:19,375 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2019-11-16 14:04:19,377 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2019-11-16 14:04:19,378 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2019-11-16 14:04:19,381 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2019-11-16 14:04:19,383 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2019-11-16 14:04:19,385 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2019-11-16 14:04:19,388 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Card.IBiz_CardInfoAppService' with service name 'app/biz_CardInfo'.
+DEBUG 2019-11-16 14:04:19,391 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Card.IFinancialDetailsAppService' with service name 'app/financialDetails'.
+DEBUG 2019-11-16 14:04:19,393 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Card.IOrderDetailAppService' with service name 'app/orderDetail'.
+DEBUG 2019-11-16 14:04:19,395 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2019-11-16 14:04:19,397 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2019-11-16 14:04:19,399 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2019-11-16 14:04:19,401 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-11-16 14:04:19,402 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2019-11-16 14:04:19,404 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-11-16 14:04:19,405 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2019-11-16 14:04:19,406 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+INFO  2019-11-16 14:04:26,059 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2019-11-16 14:04:26,059 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: .@AbpZeroTemplate'
+INFO  2019-11-16 14:04:26,059 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2019-11-16 14:04:26,059 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2019-11-16 14:04:26,059 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2019-11-16 14:04:26,059 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2019-11-16 14:04:26,059 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2019-11-16 14:04:26,059 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2019-11-16 14:04:26,059 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+DEBUG 2019-11-16 14:04:26,070 [erver] ngfire.Server.BackgroundProcessingServer - Background process 'BackgroundProcessingServer' started.
+DEBUG 2019-11-16 14:04:26,092 [tbeat] Hangfire.Server.ServerHeartbeat          - Background process 'ServerHeartbeat' started.
+DEBUG 2019-11-16 14:04:26,114 [chdog] Hangfire.Server.ServerWatchdog           - Background process 'ServerWatchdog' started.
+DEBUG 2019-11-16 14:04:26,162 [nager] Hangfire.SqlServer.ExpirationManager     - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2019-11-16 14:04:26,162 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'AggregatedCounter' table...
+DEBUG 2019-11-16 14:04:26,181 [gator] Hangfire.SqlServer.CountersAggregator    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2019-11-16 14:04:26,181 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2019-11-16 14:04:26,199 [gator] Hangfire.SqlServer.CountersAggregator    - Records from the 'Counter' table aggregated.
+DEBUG 2019-11-16 14:04:26,237 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2019-11-16 14:04:26,237 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Job' table...
+DEBUG 2019-11-16 14:04:26,238 [8d81c] Hangfire.Server.Worker                   - Background process 'Worker #f588d81c' started.
+DEBUG 2019-11-16 14:04:26,270 [399bc] Hangfire.Server.Worker                   - Background process 'Worker #228399bc' started.
+DEBUG 2019-11-16 14:04:26,287 [16f95] Hangfire.Server.Worker                   - Background process 'Worker #b3d16f95' started.
+DEBUG 2019-11-16 14:04:26,309 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Job' table.
+DEBUG 2019-11-16 14:04:26,309 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'List' table...
+DEBUG 2019-11-16 14:04:26,340 [c1135] Hangfire.Server.Worker                   - Background process 'Worker #b81c1135' started.
+DEBUG 2019-11-16 14:04:26,357 [11cb4] Hangfire.Server.Worker                   - Background process 'Worker #b1111cb4' started.
+DEBUG 2019-11-16 14:04:26,435 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'List' table.
+DEBUG 2019-11-16 14:04:26,435 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Set' table...
+DEBUG 2019-11-16 14:04:26,435 [f4054] Hangfire.Server.Worker                   - Background process 'Worker #320f4054' started.
+DEBUG 2019-11-16 14:04:26,440 [ad3ba] Hangfire.Server.Worker                   - Background process 'Worker #d36ad3ba' started.
+DEBUG 2019-11-16 14:04:26,479 [913d8] Hangfire.Server.Worker                   - Background process 'Worker #581913d8' started.
+DEBUG 2019-11-16 14:04:26,501 [e9b05] Hangfire.Server.Worker                   - Background process 'Worker #dafe9b05' started.
+DEBUG 2019-11-16 14:04:26,532 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Set' table.
+DEBUG 2019-11-16 14:04:26,532 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Hash' table...
+DEBUG 2019-11-16 14:04:26,561 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Hash' table.
+DEBUG 2019-11-16 14:04:26,570 [f5e14] Hangfire.Server.Worker                   - Background process 'Worker #b99f5e14' started.
+DEBUG 2019-11-16 14:04:26,592 [e4de7] Hangfire.Server.Worker                   - Background process 'Worker #d53e4de7' started.
+DEBUG 2019-11-16 14:04:26,603 [c05fb] Hangfire.Server.Worker                   - Background process 'Worker #cb5c05fb' started.
+DEBUG 2019-11-16 14:04:26,623 [77f28] Hangfire.Server.Worker                   - Background process 'Worker #e7377f28' started.
+DEBUG 2019-11-16 14:04:26,655 [2bbf2] Hangfire.Server.Worker                   - Background process 'Worker #20c2bbf2' started.
+DEBUG 2019-11-16 14:04:26,666 [43e2e] Hangfire.Server.Worker                   - Background process 'Worker #f9a43e2e' started.
+DEBUG 2019-11-16 14:04:26,717 [455d8] Hangfire.Server.Worker                   - Background process 'Worker #e58455d8' started.
+DEBUG 2019-11-16 14:04:26,731 [2429c] Hangfire.Server.Worker                   - Background process 'Worker #8db2429c' started.
+DEBUG 2019-11-16 14:04:26,772 [7c93e] Hangfire.Server.Worker                   - Background process 'Worker #bc27c93e' started.
+DEBUG 2019-11-16 14:04:26,796 [43ea4] Hangfire.Server.Worker                   - Background process 'Worker #84643ea4' started.
+DEBUG 2019-11-16 14:04:26,809 [8cfad] Hangfire.Server.Worker                   - Background process 'Worker #f078cfad' started.
+DEBUG 2019-11-16 14:04:26,841 [duler] Hangfire.Server.DelayedJobScheduler      - Background process 'DelayedJobScheduler' started.
+DEBUG 2019-11-16 14:04:26,883 [duler] Hangfire.Server.RecurringJobScheduler    - Background process 'RecurringJobScheduler' started.
+WARN  2019-11-16 14:04:38,282 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'BasicUserInfo' in localization source 'AbpZeroTemplate'!
+INFO  2019-11-16 14:05:22,418 [23   ] ZeroTemplate.Card.Biz_CardInfoAppService - 在接口1中查询到数据{"status":"02","msg":"实名认证不通过！","idCard":"512225196911306789","name":"刘玉梅","sex":"","area":"","province":"","city":"","prefecture":"","birthday":"","addrCode":"","lastCode":""}
+DEBUG 2019-11-16 14:10:30,766 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-11-16 14:10:30,784 [1    ] Abp.Modules.AbpModuleManager             - Found 21 ABP modules in total.
+DEBUG 2019-11-16 14:10:30,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.Web.AbpZeroTemplateWebModule, MyCompanyName.AbpZeroTemplate.Web, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpZeroOwinModule, Abp.Zero.Owin, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,801 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,801 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,801 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateDataModule, MyCompanyName.AbpZeroTemplate.EntityFramework, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateCoreModule, MyCompanyName.AbpZeroTemplate.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateApplicationModule, MyCompanyName.AbpZeroTemplate.Application, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.WebApi.AbpZeroTemplateWebApiModule, MyCompanyName.AbpZeroTemplate.WebApi, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=3.1.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:30,819 [1    ] Abp.Modules.AbpModuleManager             - 21 modules loaded.
+DEBUG 2019-11-16 14:10:31,191 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-16 14:10:31,191 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-16 14:10:31,191 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-11-16 14:10:31,191 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+INFO  2019-11-16 14:10:31,853 [1    ] Hangfire.SqlServer.SqlServerStorage      - Start installing Hangfire SQL objects...
+INFO  2019-11-16 14:10:32,207 [1    ] Hangfire.SqlServer.SqlServerStorage      - Hangfire SQL objects installed.
+DEBUG 2019-11-16 14:10:32,790 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: MyCompanyName.AbpZeroTemplate.EntityFramework.AbpZeroTemplateDbContext, MyCompanyName.AbpZeroTemplate.EntityFramework, Version=4.6.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-11-16 14:10:37,982 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-11-16 14:10:38,058 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-11-16 14:10:38,077 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-11-16 14:10:38,105 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-11-16 14:10:38,185 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2019-11-16 14:10:38,210 [1    ] bp.Hangfire.HangfireBackgroundJobManager - Start background worker: Abp.Hangfire.HangfireBackgroundJobManager
+INFO  2019-11-16 14:10:38,266 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2019-11-16 14:10:38,280 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: .@AbpZeroTemplate'
+INFO  2019-11-16 14:10:38,281 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2019-11-16 14:10:38,281 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2019-11-16 14:10:38,281 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2019-11-16 14:10:38,281 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2019-11-16 14:10:38,281 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2019-11-16 14:10:38,281 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2019-11-16 14:10:38,281 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+DEBUG 2019-11-16 14:10:38,333 [erver] ngfire.Server.BackgroundProcessingServer - Background process 'BackgroundProcessingServer' started.
+DEBUG 2019-11-16 14:10:38,607 [tbeat] Hangfire.Server.ServerHeartbeat          - Background process 'ServerHeartbeat' started.
+DEBUG 2019-11-16 14:10:38,618 [chdog] Hangfire.Server.ServerWatchdog           - Background process 'ServerWatchdog' started.
+DEBUG 2019-11-16 14:10:38,627 [nager] Hangfire.SqlServer.ExpirationManager     - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2019-11-16 14:10:38,635 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'AggregatedCounter' table...
+DEBUG 2019-11-16 14:10:38,660 [gator] Hangfire.SqlServer.CountersAggregator    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2019-11-16 14:10:38,661 [62737] Hangfire.Server.Worker                   - Background process 'Worker #2f962737' started.
+DEBUG 2019-11-16 14:10:38,663 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2019-11-16 14:10:38,673 [7c744] Hangfire.Server.Worker                   - Background process 'Worker #e577c744' started.
+DEBUG 2019-11-16 14:10:38,682 [41b6e] Hangfire.Server.Worker                   - Background process 'Worker #87a41b6e' started.
+DEBUG 2019-11-16 14:10:38,715 [gator] Hangfire.SqlServer.CountersAggregator    - Records from the 'Counter' table aggregated.
+DEBUG 2019-11-16 14:10:38,723 [0dc9e] Hangfire.Server.Worker                   - Background process 'Worker #dd70dc9e' started.
+DEBUG 2019-11-16 14:10:38,778 [60c44] Hangfire.Server.Worker                   - Background process 'Worker #5ab60c44' started.
+DEBUG 2019-11-16 14:10:38,880 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2019-11-16 14:10:38,881 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Job' table...
+DEBUG 2019-11-16 14:10:38,903 [8f347] Hangfire.Server.Worker                   - Background process 'Worker #3bb8f347' started.
+DEBUG 2019-11-16 14:10:38,925 [f0a60] Hangfire.Server.Worker                   - Background process 'Worker #e3df0a60' started.
+DEBUG 2019-11-16 14:10:38,974 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Job' table.
+DEBUG 2019-11-16 14:10:38,974 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'List' table...
+DEBUG 2019-11-16 14:10:39,004 [4bbee] Hangfire.Server.Worker                   - Background process 'Worker #1e44bbee' started.
+DEBUG 2019-11-16 14:10:39,035 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'List' table.
+DEBUG 2019-11-16 14:10:39,035 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Set' table...
+DEBUG 2019-11-16 14:10:39,124 [a41d8] Hangfire.Server.Worker                   - Background process 'Worker #123a41d8' started.
+DEBUG 2019-11-16 14:10:39,135 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Set' table.
+DEBUG 2019-11-16 14:10:39,135 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Hash' table...
+DEBUG 2019-11-16 14:10:39,136 [783be] Hangfire.Server.Worker                   - Background process 'Worker #61f783be' started.
+DEBUG 2019-11-16 14:10:39,186 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Hash' table.
+DEBUG 2019-11-16 14:10:39,195 [d165a] Hangfire.Server.Worker                   - Background process 'Worker #165d165a' started.
+DEBUG 2019-11-16 14:10:39,241 [4cd39] Hangfire.Server.Worker                   - Background process 'Worker #5c64cd39' started.
+DEBUG 2019-11-16 14:10:39,271 [f824a] Hangfire.Server.Worker                   - Background process 'Worker #164f824a' started.
+DEBUG 2019-11-16 14:10:39,276 [9cb7c] Hangfire.Server.Worker                   - Background process 'Worker #59a9cb7c' started.
+DEBUG 2019-11-16 14:10:39,327 [93f77] Hangfire.Server.Worker                   - Background process 'Worker #f6193f77' started.
+DEBUG 2019-11-16 14:10:39,372 [9bf3d] Hangfire.Server.Worker                   - Background process 'Worker #fa39bf3d' started.
+DEBUG 2019-11-16 14:10:39,398 [e18ab] Hangfire.Server.Worker                   - Background process 'Worker #bd8e18ab' started.
+DEBUG 2019-11-16 14:10:39,419 [967e0] Hangfire.Server.Worker                   - Background process 'Worker #c34967e0' started.
+DEBUG 2019-11-16 14:10:39,429 [de6d3] Hangfire.Server.Worker                   - Background process 'Worker #906de6d3' started.
+DEBUG 2019-11-16 14:10:39,462 [5d961] Hangfire.Server.Worker                   - Background process 'Worker #6545d961' started.
+DEBUG 2019-11-16 14:10:39,482 [duler] Hangfire.Server.DelayedJobScheduler      - Background process 'DelayedJobScheduler' started.
+DEBUG 2019-11-16 14:10:39,516 [duler] Hangfire.Server.RecurringJobScheduler    - Background process 'RecurringJobScheduler' started.
+DEBUG 2019-11-16 14:10:41,925 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-11-16 14:10:42,215 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 41 classes define auto mapping attributes
+DEBUG 2019-11-16 14:10:42,215 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Friendships.Cache.FriendCacheItem
+DEBUG 2019-11-16 14:10:42,220 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-11-16 14:10:42,220 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-11-16 14:10:42,220 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Organizations.Dto.OrganizationUnitDto
+DEBUG 2019-11-16 14:10:42,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2019-11-16 14:10:42,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2019-11-16 14:10:42,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.MultiTenancy.Dto.TenantListDto
+DEBUG 2019-11-16 14:10:42,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.MultiTenancy.Dto.TenantEditDto
+DEBUG 2019-11-16 14:10:42,222 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2019-11-16 14:10:42,222 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2019-11-16 14:10:42,222 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Friendships.Dto.FriendDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.EditionEditDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.FlatFeatureDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.EditionListDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Chat.Dto.ChatMessageDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Chat.Dto.ChatUserDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Chat.Dto.ChatUserWithMessagesDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.Biz_CardInfoEditDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.Biz_CardInfoListDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.FinancialDetailsEditDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.FinancialDetailsListDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.OrderDetailEditDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Card.Dtos.OrderDetailListDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserListDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Roles.Dto.RoleListDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Permissions.Dto.FlatPermissionDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Permissions.Dto.FlatPermissionWithLevelDto
+DEBUG 2019-11-16 14:10:42,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Auditing.Dto.AuditLogListDto
+DEBUG 2019-11-16 14:10:42,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2019-11-16 14:10:42,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2019-11-16 14:10:42,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2019-11-16 14:10:42,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2019-11-16 14:10:42,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2019-11-16 14:10:42,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2019-11-16 14:10:42,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2019-11-16 14:10:42,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2019-11-16 14:10:42,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2019-11-16 14:10:42,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2019-11-16 14:10:43,042 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-11-16 14:10:43,093 [1    ] Abp.Owin.OwinUserTokenProviderAccessor   - DataProtectionProvider has not been set yet.
+DEBUG 2019-11-16 14:10:43,110 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Timing.ITimingAppService' with service name 'app/timing'.
+DEBUG 2019-11-16 14:10:43,111 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2019-11-16 14:10:43,114 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2019-11-16 14:10:43,122 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2019-11-16 14:10:43,123 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2019-11-16 14:10:43,125 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2019-11-16 14:10:43,126 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2019-11-16 14:10:43,127 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2019-11-16 14:10:43,128 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Friendships.IFriendshipAppService' with service name 'app/friendship'.
+DEBUG 2019-11-16 14:10:43,129 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2019-11-16 14:10:43,130 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2019-11-16 14:10:43,131 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2019-11-16 14:10:43,133 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2019-11-16 14:10:43,136 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Chat.IChatAppService' with service name 'app/chat'.
+DEBUG 2019-11-16 14:10:43,138 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Card.IBiz_CardInfoAppService' with service name 'app/biz_CardInfo'.
+DEBUG 2019-11-16 14:10:43,139 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Card.IFinancialDetailsAppService' with service name 'app/financialDetails'.
+DEBUG 2019-11-16 14:10:43,141 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Card.IOrderDetailAppService' with service name 'app/orderDetail'.
+DEBUG 2019-11-16 14:10:43,142 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2019-11-16 14:10:43,143 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2019-11-16 14:10:43,144 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2019-11-16 14:10:43,146 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2019-11-16 14:10:43,147 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2019-11-16 14:10:43,148 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2019-11-16 14:10:43,149 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Permissions.IPermissionAppService' with service name 'app/permission'.
+DEBUG 2019-11-16 14:10:43,151 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+INFO  2019-11-16 14:10:43,343 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2019-11-16 14:10:43,343 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'SQL Server: .@AbpZeroTemplate'
+INFO  2019-11-16 14:10:43,343 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2019-11-16 14:10:43,343 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2019-11-16 14:10:43,343 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2019-11-16 14:10:43,343 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2019-11-16 14:10:43,343 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2019-11-16 14:10:43,343 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2019-11-16 14:10:43,343 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+DEBUG 2019-11-16 14:10:43,355 [erver] ngfire.Server.BackgroundProcessingServer - Background process 'BackgroundProcessingServer' started.
+DEBUG 2019-11-16 14:10:43,376 [tbeat] Hangfire.Server.ServerHeartbeat          - Background process 'ServerHeartbeat' started.
+DEBUG 2019-11-16 14:10:43,404 [chdog] Hangfire.Server.ServerWatchdog           - Background process 'ServerWatchdog' started.
+DEBUG 2019-11-16 14:10:43,421 [nager] Hangfire.SqlServer.ExpirationManager     - Background process 'Hangfire.SqlServer.ExpirationManager' started.
+DEBUG 2019-11-16 14:10:43,421 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'AggregatedCounter' table...
+DEBUG 2019-11-16 14:10:43,439 [gator] Hangfire.SqlServer.CountersAggregator    - Background process 'Hangfire.SqlServer.CountersAggregator' started.
+DEBUG 2019-11-16 14:10:43,439 [gator] Hangfire.SqlServer.CountersAggregator    - Aggregating records in 'Counter' table...
+DEBUG 2019-11-16 14:10:43,458 [gator] Hangfire.SqlServer.CountersAggregator    - Records from the 'Counter' table aggregated.
+DEBUG 2019-11-16 14:10:43,466 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'AggregatedCounter' table.
+DEBUG 2019-11-16 14:10:43,466 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Job' table...
+DEBUG 2019-11-16 14:10:43,486 [3109d] Hangfire.Server.Worker                   - Background process 'Worker #3f93109d' started.
+DEBUG 2019-11-16 14:10:43,529 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Job' table.
+DEBUG 2019-11-16 14:10:43,529 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'List' table...
+DEBUG 2019-11-16 14:10:43,529 [9367b] Hangfire.Server.Worker                   - Background process 'Worker #a6f9367b' started.
+DEBUG 2019-11-16 14:10:43,560 [694eb] Hangfire.Server.Worker                   - Background process 'Worker #aa3694eb' started.
+DEBUG 2019-11-16 14:10:43,593 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'List' table.
+DEBUG 2019-11-16 14:10:43,593 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Set' table...
+DEBUG 2019-11-16 14:10:43,598 [f2614] Hangfire.Server.Worker                   - Background process 'Worker #dd0f2614' started.
+DEBUG 2019-11-16 14:10:43,640 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Set' table.
+DEBUG 2019-11-16 14:10:43,640 [nager] Hangfire.SqlServer.ExpirationManager     - Removing outdated records from the 'Hash' table...
+DEBUG 2019-11-16 14:10:43,654 [1db19] Hangfire.Server.Worker                   - Background process 'Worker #e271db19' started.
+DEBUG 2019-11-16 14:10:43,687 [nager] Hangfire.SqlServer.ExpirationManager     - Outdated records removed from the 'Hash' table.
+DEBUG 2019-11-16 14:10:43,695 [b148f] Hangfire.Server.Worker                   - Background process 'Worker #286b148f' started.
+DEBUG 2019-11-16 14:10:43,717 [8a7cf] Hangfire.Server.Worker                   - Background process 'Worker #e848a7cf' started.
+DEBUG 2019-11-16 14:10:43,746 [17f0c] Hangfire.Server.Worker                   - Background process 'Worker #07c17f0c' started.
+DEBUG 2019-11-16 14:10:43,778 [d48c8] Hangfire.Server.Worker                   - Background process 'Worker #613d48c8' started.
+DEBUG 2019-11-16 14:10:43,790 [ab4b6] Hangfire.Server.Worker                   - Background process 'Worker #862ab4b6' started.
+DEBUG 2019-11-16 14:10:43,804 [a1bf1] Hangfire.Server.Worker                   - Background process 'Worker #ef9a1bf1' started.
+DEBUG 2019-11-16 14:10:43,823 [ee1df] Hangfire.Server.Worker                   - Background process 'Worker #e9fee1df' started.
+DEBUG 2019-11-16 14:10:43,853 [76a9e] Hangfire.Server.Worker                   - Background process 'Worker #0e376a9e' started.
+DEBUG 2019-11-16 14:10:43,877 [8ed9f] Hangfire.Server.Worker                   - Background process 'Worker #2d68ed9f' started.
+DEBUG 2019-11-16 14:10:43,930 [83162] Hangfire.Server.Worker                   - Background process 'Worker #eba83162' started.
+DEBUG 2019-11-16 14:10:43,973 [c269d] Hangfire.Server.Worker                   - Background process 'Worker #759c269d' started.
+DEBUG 2019-11-16 14:10:44,023 [11255] Hangfire.Server.Worker                   - Background process 'Worker #67e11255' started.
+DEBUG 2019-11-16 14:10:44,049 [3b038] Hangfire.Server.Worker                   - Background process 'Worker #d263b038' started.
+DEBUG 2019-11-16 14:10:44,082 [69685] Hangfire.Server.Worker                   - Background process 'Worker #20b69685' started.
+DEBUG 2019-11-16 14:10:44,090 [d416c] Hangfire.Server.Worker                   - Background process 'Worker #9b0d416c' started.
+DEBUG 2019-11-16 14:10:44,132 [duler] Hangfire.Server.DelayedJobScheduler      - Background process 'DelayedJobScheduler' started.
+DEBUG 2019-11-16 14:10:44,168 [duler] Hangfire.Server.RecurringJobScheduler    - Background process 'RecurringJobScheduler' started.
+WARN  2019-11-16 14:11:00,149 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'BasicUserInfo' in localization source 'AbpZeroTemplate'!
+INFO  2019-11-16 14:11:28,666 [6    ] ZeroTemplate.Card.Biz_CardInfoAppService - 在接口1中查询到数据{"status":"02","msg":"实名认证不通过！","idCard":"512225196911306789","name":"刘玉梅","sex":"","area":"","province":"","city":"","prefecture":"","birthday":"","addrCode":"","lastCode":""}

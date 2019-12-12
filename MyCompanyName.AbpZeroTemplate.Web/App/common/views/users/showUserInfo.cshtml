@@ -1,0 +1,26 @@
+<div ng-controller="common.views.users.showUserInfo as vm">
+    <form name="userCreateOrEditForm1" role="form" novalidate class="form-validation">
+        <div class="modal-header">
+            <h4 class="modal-title">
+                <span>用户基本信息</span>
+            </h4>
+        </div>
+        <div class="modal-body" style="margin:15px">
+            <div class="row">
+                <div class="form-group  form-md-floating-label">
+                    <label>用户名:</label>
+                    <span>{{vm.user.userName}}</span>
+                </div>
+                <div class="form-group  form-md-floating-label">
+                    <label>客户名称:</label>
+                    <span>{{vm.user.custName}}</span>
+                </div>
+                <div class="form-group  form-md-floating-label">
+                    <label>用户余额:</label>
+                    <span>{{vm.user.nowMoney|moneyFormat}}元</span>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>

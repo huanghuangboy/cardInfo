@@ -1,0 +1,71 @@
+﻿
+                            
+   
+@*
+
+//你好，我是ABP代码生成器的作者,欢迎您使用该工具，目前接受付费定制该工具，有需要的可以联系我
+   //我的邮箱:werltm@hotmail.com
+   // 官方网站:"http://www.yoyocms.com"
+ // 交流QQ群：104390185  
+ //微信公众号：角落的白板报
+// 演示地址:"vue版本：http://vue.yoyocms.com angularJs版本:ng1.yoyocms.com"
+//博客地址：http://www.cnblogs.com/wer-ltm/
+//代码生成器帮助文档：http://www.cnblogs.com/wer-ltm/p/5777190.html
+// <Author-作者>梁桐铭 ,微软MVP</Author-作者>
+// Copyright © YoYoCms@China.2019-07-30T10:51:21. All Rights Reserved.
+//<生成时间>2019-07-30T10:51:21</生成时间>
+
+*@
+
+
+ 
+ <div>
+    <form name="financialDetailsCreateOrEditForm" role="form" novalidate class="form-validation">
+        <div class="modal-header">
+            <h4 class="modal-title">
+                <span ng-if="vm.financialDetails.id">编辑信息:{{vm.financialDetails.name}}</span>
+                <span ng-if="!vm.financialDetails.id">新增信息</span>
+            </h4>
+        </div>
+        <div class="modal-body">
+            
+
+																								
+           <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                <input type="text" class="form-control" name="Type" ng-class="{'edited':vm.financialDetails.type}" ng-model="vm.financialDetails.type"          />
+                <label>0收入2支出</label>
+				            </div>
+									
+           <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                <input type="text" class="form-control" name="PayType" ng-class="{'edited':vm.financialDetails.payType}" ng-model="vm.financialDetails.payType"          />
+                <label>0系统</label>
+				            </div>
+									
+           <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                <input type="text" class="form-control" name="Money" ng-class="{'edited':vm.financialDetails.money}" ng-model="vm.financialDetails.money"          />
+                <label>交易金额</label>
+				            </div>
+									     <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                <textarea auto-focus class="form-control" ng-class="{'edited':vm.financialDetails.desc}" rows="4" ng-model="vm.financialDetails.desc"></textarea>
+                 <label>交易说明</label>
+            </div>
+									
+           <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                <input type="text" class="form-control" name="NowMoney" ng-class="{'edited':vm.financialDetails.nowMoney}" ng-model="vm.financialDetails.nowMoney"          />
+                <label>当前余额</label>
+				            </div>
+									     <div class="form-group form-md-line-input form-md-floating-label no-hint">
+                <textarea auto-focus class="form-control" ng-class="{'edited':vm.financialDetails.mark}" rows="4" ng-model="vm.financialDetails.mark"></textarea>
+                 <label>备注</label>
+            </div>
+					
+
+           
+
+        </div>
+        <div class="modal-footer">
+            <button ng-disabled="vm.saving" type="button" class="btn btn-default" ng-click="vm.cancel()">@L("Cancel")</button>
+            <button type="submit" button-busy="vm.saving" busy-text="@L("SavingWithThreeDot")" class="btn btn-primary blue" ng-click="vm.save()" ng-disabled="exampleForm.$invalid"><i class="fa fa-save"></i> <span>@L("Save")</span></button>
+        </div>
+    </form>
+</div>
